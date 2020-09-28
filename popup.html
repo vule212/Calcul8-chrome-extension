@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calcul8</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="header">
         <h1 class="logo">
             <img src="images/calcul8-icon.png" class="logo-icon">
-            Calcul8 <span class="version">(1.0.0)</span>
+            Calcul8 
         </h1>
+        <span class="version">(1.0.0)</span>
     </div>
     <div class="content">
         <div class="numbers">
-
+            <input type="number" class="number-input" id="num1">
+            <input type="number" class="number-input" id="num2">
         </div>
         <div class="operations">
-
+            <div class="op-row">
+                <button id="add">Add</button>
+                <button id="subtract">Subtract</button>
+                <button id="multiply">Multiply</button>
+            </div>
+            <div class="op-row">
+                <button id="divide">Divide</button>
+                <button id="modulus">Modulus</button>
+            </div>
+        </div>
+        <div class="answer">
+            <p>Answer: </p>
         </div>
     </div>
 

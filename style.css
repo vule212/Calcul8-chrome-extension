@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(73, 106, 138);
+    width: 200px;
+    border: 3px solid black;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color:rgb(199, 199, 199);
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    margin:1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 6px;
+}
+
+.version {
+    font-size:15px;
+    text-align: center;
+    color:rgb(160, 160, 160);
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.number-input {
+    width:45px;
+    text-align: center;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.operations {
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.op-row {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius:10px;
+    margin: 3px;
+    border: 2px solid rgb(158, 158, 199);
+}
+
+button:active {
+    border: 2px solid rgb(77, 77, 182);
+}
+
+.answer {
+    margin:5px;
+    color:rgb(199, 199, 199);
+}
